@@ -2,6 +2,10 @@
 ############# Testing Section ################################################################################
 ##############################################################################################################
 
+# loads TimeFrame.R (if currently in same directory as this script)
+source(paste(dirname(rstudioapi::getSourceEditorContext()$path),"/TimeFrame.R",sep=""))
+
+
 #date test
 #data for testing purposes
 testdate = "03.04.2017"
